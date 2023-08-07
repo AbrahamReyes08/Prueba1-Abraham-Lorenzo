@@ -77,7 +77,9 @@ public class Buscar extends javax.swing.JFrame {
         String tipo=tipoField.getText();
 
          BlockBuster blockBuster = new BlockBuster();
-
+         
+         blockBuster.buscarItem(codigo, tipo);
+         
     }//GEN-LAST:event_aceptarActionPerformed
 
     private void cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelarActionPerformed
